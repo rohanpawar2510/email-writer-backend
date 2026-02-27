@@ -6,5 +6,6 @@ import lombok.Data;
 public class EmailRequest {
     private String emailContent;
     private String tone;
+    private String aiModel;
 
 }
